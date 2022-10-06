@@ -1,0 +1,1317 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header area styling */
+
+header {
+  background-color: #0e1924;
+  position: sticky;
+  top: 0;
+}
+
+.header_area {
+  max-width: 1360px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  text-align: right;
+}
+
+.list_item {
+  display: inline-block;
+  color: #e3e3ea;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.list_item:hover {
+  color: #6f42c1;
+}
+
+/* Hero area styling */
+
+.hero_div {
+  background-color: #0e1924;
+}
+
+.hero_main {
+  max-width: 1166px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 67px;
+}
+
+.hero_heading {
+  color: #fbfaff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.hero_text {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: inherit;
+  color: #cdced5;
+  margin-top: 8px;
+  width: 508px;
+}
+
+.hero_text2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: inherit;
+  color: #cdced5;
+  margin-top: 12px;
+  width: 508px;
+}
+
+.search_box {
+  margin-top: 50px;
+}
+
+input:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+input::placeholder {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9ca3af;
+}
+
+.search_input {
+  width: 443px;
+  padding: 20px 30px 20px 50px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #425266;
+}
+
+.search_icon {
+  margin-left: -425px;
+  margin-bottom: -2px;
+}
+
+.search_arrow {
+  padding: 13px;
+  background-color: #323e4d;
+  border-radius: 35px;
+  margin-left: 350px;
+  margin-bottom: -17px;
+  cursor: pointer;
+}
+
+/* Acheiver section Styling*/
+
+.acheiver {
+  background-color: #0e1924;
+}
+
+.acheiver_head {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.acheiver_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.acheiver_text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: inherit;
+  color: #cdced5;
+  width: 724px;
+  margin: 20px 0 40px 0;
+}
+
+.acheiver_section {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.acheiver_body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 115px 70px 115px;
+  padding: 40px;
+  border: 1px solid #cdced5;
+}
+
+.calender {
+  padding: 0 56px 0 24px;
+  border-right: 1px solid #cdced5;
+  flex-basis: 50%;
+}
+
+.calender_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calender_heading {
+  color: #ef4444;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.arrow_next {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 6px;
+}
+
+.arrow_next img {
+  max-width: 13px;
+  height: auto;
+  cursor: pointer;
+}
+
+.arrow_next {
+  align-self: flex-end;
+}
+
+.week_days {
+  margin-top: 40px;
+}
+
+.calender_date {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.day {
+  display: flex;
+  justify-content: space-around;
+}
+
+.day_list {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #ef4444;
+  cursor: pointer;
+}
+
+.date {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.date:hover {
+  padding: 5px 7px;
+  background-color: #6b7280;
+  border-radius: 35px;
+}
+
+.null {
+  color: #0e1924;
+}
+
+.null:hover {
+  background-color: #0e1924;
+  color: #0e1924;
+}
+
+.active {
+  background-color: #ef4444;
+  color: #ffffff;
+  padding: 5px 7px;
+  border-radius: 35px;
+}
+
+.active:hover {
+  background-color: #ef4444;
+  color: #ffffff;
+  padding: 5px 7px;
+  border-radius: 35px;
+}
+
+.winner {
+  padding: 0 24px 0 56px;
+  flex-basis: 50%;
+}
+
+.winner_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ef4444;
+}
+
+.student_details {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+
+.ravikant {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.student_profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  flex-basis: 60%;
+  text-align: left;
+}
+
+.name h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.icon {
+  flex-basis: 40%;
+  text-align: right;
+  cursor: pointer;
+}
+
+.student_profile {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdced5;
+}
+
+.winner p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+/* Enoroll Now section styling */
+
+.bundle_main {
+  background-color: #0e1924;
+}
+
+.bundle_body {
+  max-width: 1126px;
+  margin: 0 auto;
+  background-color: #5b18f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.lcopro {
+  max-width: 376px;
+  height: 377px;
+}
+
+.bundle_content {
+  padding: 0 40px;
+  flex-basis: 63%;
+}
+
+.trending {
+  border: 0;
+  padding: 7px 22px;
+  background-color: #e85124;
+  border-radius: 35px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.bundle_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+span {
+  color: #1fe43a;
+}
+
+.bundle_text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.enroll_btn {
+  /* padding: 20px 59px; */
+  width: 154px;
+  height: 52px;
+  background-color: #ffffff00;
+  border: 1px solid #ffffff;
+  margin-top: 38px;
+  border-radius: 7px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bundle_logo {
+  flex-basis: 37%;
+}
+
+/* Courses section styling */
+
+.courses_main {
+  background-color: #0e1924;
+}
+
+.courses_body {
+  max-width: 1126px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.dsa {
+  flex-basis: 32%;
+  background-color: #2d33b3;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 36px;
+  padding: 0 15px 5px 0;
+}
+
+.web {
+  flex-basis: 32%;
+  background-color: #d8511c;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 36px;
+  padding: 0 15px 5px 0;
+}
+
+.backend {
+  flex-basis: 32%;
+  background-color: #00c69a;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 36px;
+  padding: 0 15px 5px 0;
+}
+
+.courses_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.courses_img {
+  max-width: 134px;
+  height: 130px;
+  margin-top: 15px;
+}
+
+.courses_btn {
+  max-width: 80px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #ffffff00;
+  padding: 0 7px;
+  margin-top: 20px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+/* Popular Bundle */
+
+.popular_main {
+  background-color: #0e1924;
+}
+
+.popular_body {
+  max-width: 1126px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 100px;
+}
+
+.popular_left {
+  max-width: 599px;
+  height: 380px;
+}
+
+.popular_row1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.popular_row2 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular_right {
+  max-width: 426px;
+  height: 380px;
+  margin-left: 99px;
+}
+
+.popular_box {
+  width: 290px;
+  height: 180px;
+  background-color: #0a121a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box-logo {
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+.box-logo img {
+  max-width: 34px;
+  height: 34px;
+}
+
+.popular_box_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular_badge {
+  color: #9966ff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  padding: 8px 0 0 20px;
+}
+
+.popular_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fbfaff;
+  margin-top: 6px;
+  margin-left: 20px;
+  width: 255px;
+}
+
+.popular_button {
+  max-width: 100px;
+  height: 36px;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 3px 7px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 45px 0 0 20px;
+  cursor: pointer;
+}
+
+/* Popular courses right styling */
+
+.popular_right_title {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #9966ff;
+  margin-top: 22px;
+}
+
+.popular_right_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.popular_right_text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #c0c1c8;
+  width: 425px;
+  line-height: inherit;
+}
+
+.popular_right_btn {
+  background-color: #1e354d;
+  color: #ffffff;
+  width: 128px;
+  height: 52px;
+  border: 0;
+  border-radius: 7px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* Why Choose LCO styling */
+
+.why-main {
+  background-color: #0e1924;
+  padding-bottom: 50px;
+}
+
+.why-body {
+  max-width: 1126px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0 40px 0;
+}
+
+.why-badge {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #9966ff;
+}
+
+.why-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #fbfaff;
+  margin: 4px 0 34px 0;
+  width: 361px;
+}
+
+/* .qna {
+  display: flex;
+  flex-direction: column;
+} */
+
+.qnas {
+  width: 450px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #425266;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+.qnas h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fbfaff;
+  padding-left: 20px;
+}
+
+.qnas img {
+  width: 13px;
+  height: auto;
+}
+
+/* Discount Section Styling */
+
+.main-discount {
+  background-color: #0e1924;
+  padding: 80px 0 80px 0;
+}
+
+.discount-body {
+  background-color: #f9bb2b;
+  max-width: 1126px;
+  height: 436px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.discount-left {
+  width: 591px;
+  margin: 0 0 0 60px;
+}
+
+.discount-right {
+  padding-right: 15px;
+  padding-top: 35px;
+}
+
+.discount-right img {
+  max-width: 455px;
+  height: 532px;
+}
+
+.discount-badge {
+  background-color: #6633cc;
+  padding: 7px 22px;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 35px;
+  margin-left: 30px;
+}
+
+.discount-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin: 13px 0 0 30px;
+}
+
+.discount-text {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 16px 0 0 30px;
+  max-width: 531px;
+  text-align: justify;
+}
+
+.discount-btn {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 40px 0 0 30px;
+  width: 132px;
+  height: 52px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+/* Our Products styling */
+
+.product-main {
+  background-color: #0e1924;
+}
+
+.product-body {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding-top: 62px;
+}
+
+.product-smh {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #9966ff;
+}
+
+.product-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+  margin-top: 10px;
+}
+
+.product-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c0c1c8;
+  width: 603px;
+  margin-top: 20px;
+}
+
+.product-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.product-box1 {
+  background-color: #00cc76;
+  width: 550px;
+  height: 340px;
+  border-radius: 7px;
+}
+
+.product-box2 {
+  background-color: #fff3aa;
+  width: 550px;
+  height: 340px;
+  border-radius: 7px;
+}
+
+.box-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+.box-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1a1a1a;
+  width: 319px;
+  margin: 16px 0 0 30px;
+}
+
+.box1-image {
+  float: right;
+  position: relative;
+  top: -125px;
+  right: 10px;
+  padding-top: 25px;
+}
+
+.box2-image {
+  float: right;
+  position: relative;
+  top: -100px;
+  right: 0;
+  display: block;
+  width: 272px;
+  height: 254px;
+}
+
+.pbox-btn {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 148px;
+  height: 52px;
+  border: 0;
+  border-radius: 7px;
+  background-color: #6633cc;
+  margin: 70px 0 0 30px;
+  cursor: pointer;
+}
+
+/*  API Playground */
+
+.main-playground {
+  background-color: #0e1924;
+  padding: 78px 0 80px 0;
+}
+
+.playground-body {
+  background-color: #62c3ff;
+  max-width: 1126px;
+  height: 436px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.playground-left {
+  width: 591px;
+  margin: 0 0 0 60px;
+}
+
+.playground-right {
+  padding-right: 15px;
+  padding-top: 35px;
+}
+
+.playground-right img {
+  max-width: 455px;
+  height: 532px;
+}
+
+.playground-badge {
+  background-color: #ffc629;
+  padding: 7px 22px;
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 35px;
+  margin-left: 30px;
+}
+
+.playground-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin: 13px 0 0 30px;
+}
+
+.playground-text {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 16px 0 0 30px;
+  width: 531px;
+  text-align: justify;
+}
+
+.playground-btn {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6633cc;
+  margin: 40px 0 0 30px;
+  width: 132px;
+  height: 52px;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.playground-img {
+  width: 357px;
+  height: 417px;
+  margin-top: -40px;
+}
+
+.pgimg-box {
+  background-color: #ffc629;
+  width: 355px;
+  height: 360px;
+  border-radius: 50%;
+}
+
+.playground-right {
+  flex-basis: 38%;
+  justify-content: center;
+}
+
+/* What makes LCO unique */
+
+.hitesh_main {
+  background-color: #0e1924;
+}
+
+.hitesh-body {
+  max-width: 1126px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 160px 0;
+}
+
+.hitesh-img {
+  max-width: 375px;
+  height: 440px;
+  display: block;
+}
+
+.hitesh-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.hitesh-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c0c1c8;
+  margin-top: 20px;
+  width: 620px;
+}
+
+.hitesh-notes {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #c0c1c8;
+  margin-top: 12px;
+}
+
+.hitesh-btn {
+  width: 224px;
+  height: 52px;
+  background-color: #6633cc;
+  border: 0;
+  border-radius: 7px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.yellow-box {
+  position: relative;
+  width: 307px;
+  height: 112px;
+  background-color: #ffc670;
+  border-radius: 31px;
+  margin-left: -65px;
+  margin-top: -125px;
+}
+
+.yellow-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  padding: 20px 0 0 30px;
+}
+
+.black-box {
+  position: relative;
+  width: 307px;
+  height: 112px;
+  background-color: #000000;
+  border-radius: 31px;
+  margin-left: -50px;
+  margin-top: -75px;
+}
+
+/* We are a learning hub for everyone styling */
+
+.company-main {
+  background-color: #e7e8ea;
+}
+
+.company-body {
+  max-width: 1126px;
+  margin: 0 auto;
+  padding-top: 62px;
+}
+
+.company-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #1e354d;
+}
+
+.company-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1e354d;
+  margin-top: 20px;
+  width: 723px;
+}
+
+.logo-row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
+/* Student testimonials styling */
+
+.reviews-main {
+  background-color: #0e1924;
+  padding: 80px 0;
+}
+
+.reviews-body {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+.reviews-boxes {
+  width: 532px;
+  height: 220px;
+  background-color: #293340;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+.reviews-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+  width: 545px;
+}
+
+.reviews-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c0c1c8;
+  margin-top: 20px;
+  width: 724px;
+}
+
+.reviews-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-deatails {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.author-deatails img {
+  max-width: 50px;
+  height: 48px;
+}
+
+.user-name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.user-role {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c0c1c8;
+}
+
+.review-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  color: #c0c1c8;
+  width: 452px;
+  margin-top: 20px;
+}
+
+/* Blog section styling */
+
+.blog-main {
+  background-color: #0e1924;
+  padding-bottom: 98px;
+}
+
+.blog-body {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+.blog-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-hbtn {
+  width: 112px;
+  height: 52px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6633cc;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* .blog-head-content {
+  flex-basis: 90%;
+}
+
+.blog-head-btn {
+  flex-basis: 10%;
+  justify-content: flex-end;
+} */
+
+.blog-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.blog-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c0c1c8;
+  margin-top: 20px;
+  width: 700px;
+}
+
+.blog-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.blog-img {
+  width: 350px;
+  height: 170px;
+}
+
+.blog-title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fbfaff;
+  margin-top: 7px;
+  margin-bottom: 16px;
+}
+
+.blog-link {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6633cc;
+  text-decoration: none;
+}
+
+.bicon {
+  max-width: 13px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.footer-main {
+  background-color: #10141a;
+}
+
+.footer-body {
+  max-width: 1326px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.footer-logo {
+  width: 375px;
+  height: 350px;
+}
+
+.footer-text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fbfaff;
+  align-items: justify;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.footer-logo img {
+  margin-top: 8px;
+}
+
+.copyright {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fbfaff;
+  line-height: 1.5em;
+  margin-top: 20px;
+  width: 284px;
+}
+
+.footer-product-list {
+  margin-left: 300px;
+}
+
+.footer-list-heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fbfaff;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 17px 0 0 5px;
+}
+
+.footer-list-items {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fbfaff;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
